@@ -1,5 +1,5 @@
 # Present Repo's goal  
 
-A course on linear is available online at http://studybyyourself.com/seminar/linear-algebra/course/?lang=en.
+The course on Linear algebra that I designed is available for free at http://studybyyourself.com/seminar/linear-algebra/course/?lang=en.
 
-This present repo is the translation of this course in German.
+The present repo is the attempt to translating this course in German.
