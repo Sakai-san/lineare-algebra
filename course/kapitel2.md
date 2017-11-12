@@ -92,6 +92,6 @@ x=−1
 
 # Zusammenfassung
 
-Der Ziel besteht darin, eine Variable durch die Addierung zu eliminieren. Zu diesem Zweck, wichtig ist geeignete Faktoren zu finden.
+Der Ziel darin besteht, eine Variable durch das Addieren zweier Gleichungen zu eliminieren. Zu diesem Zweck, wichtig ist geeignete Faktoren zu finden.
 
 The point is to eliminate a variable by adding two equations together. For that purpose it is necessary to find the right factors. The addition generates a new equation which in turns can be used for the elimination of another variable.
