@@ -6,8 +6,7 @@ Eine lineare Gleichung hat die folgende Form :
 
 a1x1+a2x2+⋯+anxn=b(1)
 
-
-In (1), sind die $ai$ die sogenannte Koeffizienten und sind die xi die sogenannte Variablen (auch Unbekannte genannt).
+Bei (1), nennt man die $ai$ die Koeffizienten und die xi die Variablen (auch Unbekannte genannt).
 
 
 ##Example I
