@@ -25,28 +25,23 @@ In (1), sind die $ai$, die sogenannte Koeffizienten und sind die xi, die sogenan
 
 # Lineares System
 
-Ein lineares System (auch lineare Gleichungssystem gennant) besteht aus mehreren linearen Gleichungen, die miteinander verbunden sind.
+Ein lineares System (auch lineare Gleichungssystem gennant) besteht aus mehreren zusammengehörenden linearen Gleichungen.
 
-Solchen Gleichungssysteme lassen sich auf viele Arten lösen. Wir weden nur das sogenannte Additionsverfahren behandeln, das in der Elimination der Variablen durch Addition der Gleichungen besteht.
+Solchen Gleichungssysteme lassen sich auf viele Arten lösen. Wir weden nur das sogenannte Additionsverfahren behandeln, das in der Elimination der Variablen durch die Addition der Gleichungen besteht.
 
 #Example III
 
 {2x−4yx+2y==2−7(4)(5)
 
-In order to eliminate a variable by adding (4) and (5) together, we can for instance multiply them by 1 and −2, respectively. By doing so, we get (6) and (7)
-
-.
+Um eine Variable, durch Addieren (4) und (5) zusammen, elimieren zu können, kann man z.B. sie mal 1 jeweils −2 nehmen. Daraus folgt (6) und (7).
 
 (6)(7)(8)2x−4y−2x−4y−8y===21416
 
-Let’s solve (8) :
+(8) lass sich folgendermassen lösen :
 
-−8y=16⟺
-y=−2
+−8y=16 ⟺ y=−2
 
-Let’s replace y, for example in (5)
-
-(it could be any other) :
+Man kann nun y z.B. in (5) (man könnte in irgenwelchen Gleichung auch so tun) einsetzen und daraus folgt :
 
 x+2⋅−2y=−7⟺x−4=−7⟺
 x=−3
@@ -55,43 +50,32 @@ x=−3
 
 ⎧⎩⎨⎪⎪−x−3y+zx+y−3z3x+4y+2z===10−12−5(9)(10)(11)
 
+Nehmen wir (9) mal 1 jeweils (10) mal 1, um x eliminieen zu können. Daraus erhält man (12) und (13) (links unten). Dann nehmen wir (10) mal -3 jeweils (11) mal 1, um x eliminieen zu können. Daraus erhält man (15) und (16) (rechts unten).
 
-
-Let’s eliminate x
-by multiplying (9) by 1 and (10) by 1, and thus getting (12) and (13) (below left). Let’s one more time eliminate x by multiplying (10) by −3 and (11) by 1, and thus getting (15) and (16
-
-) (below right).
 (12)(13)(14)−x−3y+zx+y−3z−2y−2z===10−12−2
 (15)(16)(17)−3x+−3y+9z3x+4y+2zy+11z===36−531
 
 
-Let’s eliminate y
-by multiplying (14) by 1 and (17) by 2. By doing so, we get (18) and (19)
-
-.
+Dann nehmen wir (14) mal 1 jeweils (17) mal 2, um y eliminieen zu können. Daraus folgt (18)und (19).
 
 (18)(19)(20)−2y−2z2y+22z20z===−26260
 
-Let’s solve (20) :
+Aus (20) folgt :
 
-20z=60⟺
-z=3
+20z=60 ⟺ z=3
 
-Let’s replace z for example in (17) :
+Man kann nun z.B. in (17) einsetzen und daraus folgt :
 
 y+11⋅3z=31⟺y+33=31⟺
 y=−2
 
-Let’s replace y
-and z for example in (10)
-
-(it could be any other) :
+Setzt man y ein und z z.B. in (10) (man könnte somit auch in (9) oder 10 tun ) :
 
 x+−2y−3⋅3z=−12⟺x+−11=−12⟺
 x=−1
 
 # Zusammenfassung
 
-Der Ziel darin besteht, eine Variable durch das Addieren zweier Gleichungen zu eliminieren. Zu diesem Zweck, wichtig ist geeignete Faktoren zu finden.
+Der Ziel darin besteht, eine Variable durch das Addieren zweier Gleichungen zu eliminieren. Dazu muss man die geeignete Faktoren finden.
 
-The point is to eliminate a variable by adding two equations together. For that purpose it is necessary to find the right factors. The addition generates a new equation which in turns can be used for the elimination of another variable.
+Die Addiiton zweier Gleichung erzeugt eine neue Gleichung, die wiederum zum Elimineren einer Variable dienen werden kann.
