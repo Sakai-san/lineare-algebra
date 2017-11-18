@@ -6,21 +6,21 @@ Eine Matrix ist eine Tablelle mit m Zeilen and n Spalten.
 
 Die Matrix enhählt die Koeffizienten eines linearen Systems. Die sind die sogenannten Elementen der Matrix.
 
-Example I zeigt wie ein lineares System sich in einer matrizielen Gleichung in der Form Ax⃗ =y⃗ darstellen lässt.
+Beispiel I zeigt wie ein lineares System sich in einer matrizielen Gleichung in der Form Ax⃗ =y⃗ darstellen lässt.
 
 ###Example I
 
 ⎧⎩⎨⎪⎪−x−3y+zx+y−3z3x+4y+2z===10−12−5⟺⎛⎝⎜−113−3141−32⎞⎠⎟A⎛⎝⎜xyz⎞⎠⎟x⃗ =⎛⎝⎜10−12−5⎞⎠⎟y⃗
 
 
-Elemente der Matrix werden durch zwei Indizes bezeichnet, also ai. Dabei bezeichnet i die Zeile bzw. j die Spalte. Als Beispiel, das Element a3,2 gleich 4 in der Matrix A des Beispieles I.
+Die Elemente der Matrix werden durch zwei Indizes bezeichnet, also aij, wobei i die Zeile bzw.  die Spalte stehen. Als Beispiel, das Element a3,2 in der Matrix A des Beispieles I gleich 4 ist.
 
 
 #Eliminationsverfahren
 
-The matrix elimination, also called Gaussian elimination, is a method to solve a linear system. This is in fact the addition method applied on matrices.
+Das Eliminationsverfahren, auch under dem Namen Gauss-Verfahren bekannt, ist eine Method, um lineare Systeme aufzulösen. Eigentlich handelt sich diese Method, um das Additionsverfahren auf eine Matrix angewandet.
 
-The starting point for a matrix elimination is the augmented matrix, as example II shows. The variable elimination is performed by adding two rows together. One of the two rows is then replaced by the result of the addition.
+Dazu beginnt man mit der sogenannten erweiterten Matrix wie im Beispiel II erläutert. Die Elimination einer Variable besteht in der Addition zweier Zeile. Die daraus ergebende Gleichung wird eine der beiden Zeile ersetzen.
 
 ###Example II
 
@@ -28,6 +28,7 @@ The starting point for a matrix elimination is the augmented matrix, as example 
 
 ⟺−12R2→R2⎛⎝⎜⎜−100−31−511510125⎞⎠⎟⎟⟺5R2+R3→R3⎛⎝⎜⎜−100−310111010130⎞⎠⎟⎟
 
+Nachdem die erweiterte Matrix obere Dreiecks-form angemonnen hat, läss sich das linear System von unten her auflösen, wie folgendes :
 
 Once we get the matrix in echelon form we can solve back the system by going from the bottom up, as follows :
 
