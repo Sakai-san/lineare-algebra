@@ -12,7 +12,7 @@ Seien A eine m×n Matrix und B eine m′×n′matrix.
 AB=C ist möglich nur wenn n=m′gilt. die Matrix C, also das Produkt, ist eine m×n′ Matrix.
 
 
-Um multiplikation A mal B zu  jede Zeile von A werden auf jede Spalten von B verteilt and werden jeweile Produkten addiert, also  (ci,j)=∑nk=0ai,kbk,j
+Bei der Matrizenmultiplikation werden jede Zeile von A auf jede Spalten von B verteilt and werden die daraus ergebenden Produkten zusammen addiert, also (ci,j)=∑nk=0ai,kbk,j
 
 The multiplication A by B is done by distributing A rows on each columns of B and by adding the products
 ###Example I
