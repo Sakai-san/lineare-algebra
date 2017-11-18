@@ -28,7 +28,7 @@ Dazu beginnt man mit der sogenannten erweiterten Matrix wie im Beispiel II erlä
 
 ⟺−12R2→R2⎛⎝⎜⎜−100−31−511510125⎞⎠⎟⎟⟺5R2+R3→R3⎛⎝⎜⎜−100−310111010130⎞⎠⎟⎟
 
-Nachdem die erweiterte Matrix obere Dreiecksform angemonnen hat, läss sich das linear System von unten her auflösen, wie folgendes :
+Nachdem die erweiterte Matrix die Zeilenstufenform hat, läss sich das linear System von unten her auflösen, wie folgendes :
 
 Once we get the matrix in echelon form we can solve back the system by going from the bottom up, as follows :
 
@@ -87,6 +87,6 @@ Transforming linear system into a matricial equation separates the coefficients 
 
 Solving a matricial equation is done by performing operations on the augmented matrix rows, such as interchanging rows and multiplying a row by a factor (different than 0
 
-). These operations combined with adding two rows together repeatedly, eventually lead to a matrix in echelon form (like a staircase).
+). These operations combined with adding two rows together repeatedly, eventually lead to a matrix in echelon form (wie eine Treppe).
 
-From the echelon matrix, we solve rows by substituing back the values found from the bottom up. Rows of all zeroes do not provide any information about the variables and can thus be ignored.
+Aus der Zeilenstufenform der Matrix, muss man noch von unten her rückwärts einsetzen, um die Lösung zu bestimmen. Nullzeilen ergeben keine Information über die Variable und können daher ignoriert werden.

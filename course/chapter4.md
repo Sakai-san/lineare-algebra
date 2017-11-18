@@ -1,6 +1,6 @@
 #Kapitel 4 : Operationen auf matrix
 
-Die grösse einer Matrix, m×n bezeichnet, ist der Anzahl von Reihen, bzw. von Spalten der Matrix. Eine Matrix, deren Anzahl der Reihen gleich dem Anzahl der Spalten, d.H. m=n gilt, ist, dann wird die Matrix quadratische Matrix genannt.
+Die grösse einer Matrix, m×n bezeichnet, ist der Anzahl von Reihen, bzw. von Spalten der Matrix. Eine Matrix, deren Anzahl der Reihen gleich dem Anzahl der Spalten, d.H. m=n gilt, ist, dann wird die Matrix quadratische Matrix genannt. In (2) sind die Matrizen 2x3 Matrizen.
 
 
 ##Matrizenmultiplikation
@@ -9,12 +9,12 @@ Wie haben im vorherigen Kapitel gesehen, wie sich in Matrixschreibweise die Koef
 
 Seien A eine m×n Matrix und B eine m′×n′matrix.
 
-AB=C ist möglich nur wenn n=m′ gilt. die Matrix C, also das Produkt, ist eine m×n′ Matrix.
+AB=C ist möglich nur wenn n=m′gilt. die Matrix C, also das Produkt, ist eine m×n′ Matrix.
 
 
-The multiplication A by B is done by distributing A rows on each columns of B and by adding the products, namely (ci,j)=∑nk=0ai,kbk,j
+Um multiplikation A mal B zu  jede Zeile von A werden auf jede Spalten von B verteilt and werden jeweile Produkten addiert, also  (ci,j)=∑nk=0ai,kbk,j
 
-.
+The multiplication A by B is done by distributing A rows on each columns of B and by adding the products
 ###Example I
 ⎛⎝⎜4−168−20⎞⎠⎟(0−71−1)=⎛⎝⎜4⋅0+8⋅−7−1⋅0+−2⋅−76⋅0+0⋅−74⋅1+8⋅−1−1⋅1+−2⋅−16⋅1+0⋅−1⎞⎠⎟=⎛⎝⎜−56140−416⎞⎠⎟(1)
 
@@ -27,7 +27,7 @@ Die Addition zweier Matrizen ist nur möglich, wenn diejenige gleiche gross sind
 
 #Skalarmultiplikation (multiplikation mit einem Zahl)
 
-Alle Elemente werden durch den Skalar multipliziert.
+Bei einer multiplikation einer Matrix mit einem Skalar werden jede Elemente mit dem Skalar multipliziert.
 
 ###Example III
 −2⎛⎝⎜−11−702−4−1⎞⎠⎟=⎛⎝⎜−2⋅−11−2⋅−7−2⋅0−2⋅2−2⋅−4−2⋅−1⎞⎠⎟=⎛⎝⎜22140−482⎞⎠⎟(3)
@@ -44,7 +44,7 @@ A matrix multiplying a column matrix can be decomposed into an addition of multi
 Matrizenmultiplikation
     AB=C
 
-where A a matrix of size m×n and B a matrix of size m′×n′. The multiplication is possible only if n=m′. Matrix C size is m×n′
+where A is a m×n matrix of size and B a matrix of size m′×n′. The multiplication is possible only if n=m′. Matrix C size is m×n′
 .
 AB≠AB
 Let K=T
