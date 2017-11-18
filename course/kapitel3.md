@@ -13,7 +13,7 @@ Beispiel I zeigt wie ein lineares System sich in einer matrizielen Gleichung in 
 ⎧⎩⎨⎪⎪−x−3y+zx+y−3z3x+4y+2z===10−12−5⟺⎛⎝⎜−113−3141−32⎞⎠⎟A⎛⎝⎜xyz⎞⎠⎟x⃗ =⎛⎝⎜10−12−5⎞⎠⎟y⃗
 
 
-Die Elemente der Matrix werden durch zwei Indizes bezeichnet, also aij, wobei i die Zeile bzw. die Spalte angeben. Als Beispiel, das Element a3,2 in der Matrix A des Beispieles I gleich 4 ist.
+Die Elemente der Matrix werden durch zwei Indizes bezeichnet, also aij, wobei i für die Zeile bzw. j für die Spalte stehen. Als Beispiel, das Element a3,2 der Matrix A des Beispieles I gleich 4 ist.
 
 
 #Eliminationsverfahren

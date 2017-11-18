@@ -1,44 +1,47 @@
 #Kapitel 4 : Operationen auf matrix
 
-Die grösse einer Matrix, m×n  bezeichnet, ist der Anzahl von Reihen, bzw. von Spalten der Matrix. Eine Matrix, deren Anzahl der Reihen gleich der Anzahll der Spalten, d.H. m=n gilt, ist, wird die Matrix quadratische Matrix genannt.
+Die grösse einer Matrix, m×n bezeichnet, ist der Anzahl von Reihen, bzw. von Spalten der Matrix. Eine Matrix, deren Anzahl der Reihen gleich dem Anzahl der Spalten, d.H. m=n gilt, ist, dann wird die Matrix quadratische Matrix genannt.
 
 
-Multiplikation
+##Matrizenmultiplikation
 
-Wie haben im vorherigen Kapitel gesehen, wie sich in Matrixschreibweise die Koeffizienten von den Variablen miteinander getrennt lassen und damit zu einer multiplikation einer Matrix durch einen Vektor führt. Dazu gehört, dass diese multiplikation definiert werden muss.
+Wie haben im vorherigen Kapitel gesehen, wie sich in Matrixschreibweise die Koeffizienten von den Variablen miteinander getrennt lassen und damit zu einer multiplikation einer Matrix durch einen Vektor führt. Jetzt muss also diese multiplikation definiert werden.
 
-Seien A eine m×n Matrix and B eine m′×n′ matrix.
+Seien A eine m×n Matrix und B eine m′×n′matrix.
 
-AB=C
-is possible only if n=m′. The C matrix size is m×n′
+AB=C ist möglich nur wenn n=m′ gilt. die Matrix C, also das Produkt, ist eine m×n′ Matrix.
 
-.
 
-The multiplication A
-by B is done by distributing A rows on each columns of B and by adding the products, namely (ci,j)=∑nk=0ai,kbk,j
+The multiplication A by B is done by distributing A rows on each columns of B and by adding the products, namely (ci,j)=∑nk=0ai,kbk,j
 
 .
-Example I
+###Example I
 ⎛⎝⎜4−168−20⎞⎠⎟(0−71−1)=⎛⎝⎜4⋅0+8⋅−7−1⋅0+−2⋅−76⋅0+0⋅−74⋅1+8⋅−1−1⋅1+−2⋅−16⋅1+0⋅−1⎞⎠⎟=⎛⎝⎜−56140−416⎞⎠⎟(1)
-Addition
 
-The addition of two matrices is possible only if they both have the same size. The corresponding elements are added. The subtraction is defined in a similar way.
-Example II
+##Addition
+
+Die Addition zweier Matrizen ist nur möglich, wenn diejenige gleiche gross sind. Die entsprechenden Elementen sind addiert. Das gleich gilt für die Subtraktion.
+
+###Example II
 (91212−38)+(70−10−1−60)=(161−811−98)(2)
-Mutiplication by a scalar (number)
 
-All elements of the matrix are multiplied by the scalar.
-Example III
+#Skalarmultiplikation (multiplikation mit einem Zahl)
+
+Alle Elemente werden durch den Skalar multipliziert.
+
+###Example III
 −2⎛⎝⎜−11−702−4−1⎞⎠⎟=⎛⎝⎜−2⋅−11−2⋅−7−2⋅0−2⋅2−2⋅−4−2⋅−1⎞⎠⎟=⎛⎝⎜22140−482⎞⎠⎟(3)
-Decomposition
+
+##Zerlegung Matrix mal Spaltenmatrix
 
 A matrix multiplying a column matrix can be decomposed into an addition of multiplications. This is due to the previous rules.
-Example IV
+
+###Example IV
 ⎛⎝⎜234−52−1⎞⎠⎟(λ1λ2)=⎛⎝⎜2λ1+−5λ23λ1+2λ24λ1+−1λ2⎞⎠⎟=λ1⎛⎝⎜234⎞⎠⎟+λ2⎛⎝⎜−52−1⎞⎠⎟(4)
-Recapitulation
 
-Multiplication
+##Zusammenfassung
 
+Matrizenmultiplikation
     AB=C
 
 where A a matrix of size m×n and B a matrix of size m′×n′. The multiplication is possible only if n=m′. Matrix C size is m×n′
@@ -49,18 +52,18 @@ Let K=T
 Let K=T
 , the right multiplication by P gives KP=TP
 
-Addition
+Matrizenaddition
 
     A+B=(ai,j+bi,j)
 
-Multiplication by a scalar
+Skalarmultiplikation
 
     λA=(λai,j)
 
-Distribution
+Distributivität
 
     A(B+C)=AB+AC
 
-Decomposition matrix multiplying a column matrix
+Zerlegung Matrix mal Spaltenmatrix
 
     (v1⋮vn⋯⋯⋯w1⋮wn)(λ1⋮λn)=λ1(v1⋮vn)+⋯+λn(w1⋮wn)
