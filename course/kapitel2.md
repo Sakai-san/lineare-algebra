@@ -9,13 +9,13 @@ a1x1+a2x2+⋯+anxn=b(1)
 Bei (1), nennt man die $ai$ die Koeffizienten und die xi die Variablen (auch Unbekannte genannt).
 
 
-##Example I
+# Beispiel I
 
 (2) ist eine lineare Gleichung.
 
 2–√x−34y=−12(2)
 
-## Example II
+## Beispiel II
 
 (3) ist keine lineare Gleichung.
 
@@ -26,9 +26,9 @@ Bei (1), nennt man die $ai$ die Koeffizienten und die xi die Variablen (auch Unb
 
 Ein lineares System (auch lineare Gleichungssystem gennant) besteht aus mehreren zusammengehörenden linearen Gleichungen.
 
-Solchen Gleichungssysteme lassen sich auf viele Arten lösen. Wir weden nur das sogenannte Additionsverfahren behandeln, das in der Elimination der Variablen durch die Addition zweier Gleichungen besteht.
+Solchen Gleichungssysteme lassen sich auf viele Arten lösen. Wir werden nur das sogenannte Additionsverfahren behandeln, das in der Elimination der Variablen durch die Addition zweier Gleichungen besteht.
 
-#Example III
+# Beispiel III
 
 {2x−4yx+2y==2−7(4)(5)
 
@@ -40,12 +40,12 @@ Um eine Variable, durch Addieren (4) und (5) zusammen, eliminieren zu lassen, ka
 
 −8y=16 ⟺ y=−2
 
-Man kann nun y z.B. in (5) (könnte irgenwdelcher anderen Gleichung sein) einsetzen und daraus folgt :
+Man kann nun y z.B. in (5) (könnte irgenwdelche anderen Gleichung sein) einsetzen und daraus folgt :
 
 x+2⋅−2y=−7⟺x−4=−7⟺
 x=−3
 
-# Example IV
+# Beispiel IV
 
 ⎧⎩⎨⎪⎪−x−3y+zx+y−3z3x+4y+2z===10−12−5(9)(10)(11)
 
@@ -75,6 +75,6 @@ x=−1
 
 # Zusammenfassung
 
-Der Ziel darin besteht, eine Variable durch das Addieren zweier Gleichungen eliminieren zu lassen. Dazu muss man die geeignete Faktoren finden.
+Der Ziel besteht darin, eine Variable durch Addieren zweier Gleichungen eliminieren zu lassen. Dazu muss man die geeignete Faktoren finden.
 
 Die Addiiton zweier Gleichung erzeugt eine neue Gleichung, die wiederum zum Elimineren einer Variable dienen werden kann.

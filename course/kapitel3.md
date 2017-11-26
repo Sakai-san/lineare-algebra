@@ -8,7 +8,7 @@ Die Matrix enhählt die Koeffizienten eines linearen Systems. Die sind die sogen
 
 Beispiel I zeigt wie ein lineares System sich in einer matrizielen Gleichung in der Form Ax⃗ =y⃗ darstellen lässt.
 
-###Example I
+### Beispiel I
 
 ⎧⎩⎨⎪⎪−x−3y+zx+y−3z3x+4y+2z===10−12−5⟺⎛⎝⎜−113−3141−32⎞⎠⎟A⎛⎝⎜xyz⎞⎠⎟x⃗ =⎛⎝⎜10−12−5⎞⎠⎟y⃗
 
@@ -20,73 +20,72 @@ Die Elemente der Matrix werden durch zwei Indizes bezeichnet, also aij, wobei i 
 
 Das Eliminationsverfahren, auch under dem Namen Gauss-Verfahren bekannt, ist eine Method, um lineare Systeme aufzulösen. Eigentlich handelt sich diese Method, um das Additionsverfahren auf eine Matrix angewandet.
 
-Dazu beginnt man mit der sogenannten erweiterten Matrix wie im Beispiel II erläutert. Die Elimination einer Variable besteht in der Addition zweier Zeile. Die daraus ergebende Gleichung wird eine der beiden Zeile ersetzen.
+Dazu beginnt man mit der sogenannten erweiterten Matrix wie im Beispiel II erläutert. Die Elimination einer Variable besteht in der Addition zweier Zeilen. Die daraus ergebende Gleichung wird eine der zwei genannten Zeilen ersetzen.
 
-###Example II
+### Beispiel II
 
 ⎛⎝⎜⎜−113−3141−3210−12−5⎞⎠⎟⎟⟺R1+R2→R2⎛⎝⎜⎜−103−3−241−2210−2−5⎞⎠⎟⎟⟺3R1+R3→R3⎛⎝⎜⎜−100−3−2−51−2510−225⎞⎠⎟⎟
 
 ⟺−12R2→R2⎛⎝⎜⎜−100−31−511510125⎞⎠⎟⎟⟺5R2+R3→R3⎛⎝⎜⎜−100−310111010130⎞⎠⎟⎟
 
-Nachdem die erweiterte Matrix die Zeilenstufenform hat, läss sich das linear System von unten her auflösen, wie folgendes :
-
-Once we get the matrix in echelon form we can solve back the system by going from the bottom up, as follows :
+Nachdem die erweiterte Matrix die sogenannte Zeilenstufenform angenommen hat, läss sich das linear System von unten her auflösen, wie folgendes :
 
 10z=30 ⟺ z=3
 
-Let’s replace z in the second row :
+Aus Einsetzen von z in der zweiten Zeile folgt :
 
 y+1⋅3z=1⟺ y=−2
 
-Let’s replace y and z in the first row :
+Durch Einsetzen von y und z in der ersten Zeile lautet hier :
 
 −1x+−3⋅−2y+1⋅3z=10⟺−x+9=10⟺x=−1
 
-The solution is :
-single point intersection
-
-Figure 3.1 : single point of intersection (credits montereyinstitute)
+Die Lösung lautet hier :
 
 x⃗ =⎛⎝⎜−1−23⎞⎠⎟(1)
 
-# Example III
+
+Figur 3.1 : eindeutiger Schnittpunkt (credits montereyinstitute)
+
+# Beispiel III
 
 ⎧⎩⎨⎪⎪4x+y+3z2x+y+z−x−y===120⟺⎛⎝⎜⎜42−111−1310120⎞⎠⎟⎟⟺R1↔R3⎛⎝⎜⎜−124−111013021⎞⎠⎟⎟
 
 ⟺2R1+R2→R2⎛⎝⎜⎜−104−1−11013021⎞⎠⎟⎟⟺4R1+R3→R3⎛⎝⎜⎜−100−1−1−3013021⎞⎠⎟⎟⟺−3R2+R3→R3⎛⎝⎜⎜−100−1−1001002−5⎞⎠⎟⎟
 
-From the last row of the echelon matrix we have :
+Aus der letzten Zeile folgt :
 
 0x+0y+0z=5
 
-That equation is unsolvable, the system then has no solution :
+Die obige Gleichung ist unlösbar, also hat das System keine Lösung :
 x⃗ ={}(2)
 
 
-# Example IV
+# Beispiel IV
 
 {2x+−2yx+−y==21⟺(21−2−121)⟺R1↔R2(12−1−212)⟺−2R1+R2→R2(10−1010)
 
-From the last row of the echelon matrix we have :
+Aus der letzten Zeile folgt :
 
 0x+0y=0⟺0=0
 
-That equation does not provide any information about the variables.
+Die obige Gleichung ergibt keine Information über die Variable.
 
-Let’s move on to the upper row from which we get :
+Dann gehen wir eine Zeile oben weiter und daraus fogt :
 
 1x+−1y=1⟺x=1+y. Let y=β.
 
-In that case we have one equation for two variables. Then the system has infinitely many solutions and the general solution is :
+Es bleibt hier eine relevante Gleichung doch besitzt das System zwei Variablen.
+
+Das heisst, dass das System unendliche viele Lösungen hat und die allgemeine Lösung lautet :
+
 x⃗ =(1+ββ),β∈R(3)
 
 
-#Recapitulation
+#Zusammenfassung
 
-Transforming linear system into a matricial equation separates the coefficients from the variables. This make things more readable.
+Mit der Darstellung eines linearen Systemes in einer matrizielen Gleichung lässen sie sich die Koeffiziente von den Variablen trennen. Dies macht es mehr leserlich.
 
-Solving a matricial equation is done by performing operations on the augmented matrix rows, such as interchanging rows and multiplying a row by a factor (different than 0
+Aus der erweiterten Matrix werden Operationen auf Zeilen ausgeführt, zwar Zeileaustauchen, Zeilemultiplizieren mit einem nicht-Null Faktor und Zeileersetzen durch die Summe zweier Zeilen miteinander, bis die genannte Matrix eine Zeilenstufenform angenommen hat, d.H wie eine Treppe aussieht.  
 
-). These operations combined with adding two rows together repeatedly, eventually lead to a matrix in echelon form (wie eine Treppe).
-
-Aus der Zeilenstufenform der Matrix, muss man noch von unten her rückwärts einsetzen, um die Lösung zu bestimmen. Nullzeilen ergeben keine Information über die Variable und können daher ignoriert werden.
+Aus der Zeilenstufenform der Matrix, muss man von unten her die Zeile lösen und rückwärts je Werte einsetzen. Nullzeilen ergeben keine Information über die Variable und können daher ignoriert werden.
