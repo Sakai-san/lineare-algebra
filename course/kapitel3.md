@@ -1,4 +1,4 @@
-#Kapital 3 : Matrix und Eliminationsverfahren
+#Kapitel 3 : Matrix und Eliminationsverfahren
 
 ## Matrix
 

@@ -3,7 +3,7 @@
 
 #Ziel
 
-The goal of linear algebra is to solve systems of linear equations, and tell if the solution is unique or not. Besides, linear algebra aims to transform spaces.
+Das Ziel von der lineare Algebra ist linearen Systeme aufzulösen und dabei zu bestimmen, ob die Lösung eindeutig oder nicht ist. Lineare algebra beschäftigt sich auch mit Raumtransformation.
 
 #Gengenstände
 

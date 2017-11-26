@@ -1,4 +1,4 @@
-#Kapital 2 : lineare Gleichungen
+#Kapitel 2 : lineare Gleichungen
 
 ## Lineare Gleichung
 
